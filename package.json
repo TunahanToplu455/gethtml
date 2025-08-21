@@ -1,0 +1,14 @@
+{
+  "name": "gethtml",
+  "version": "1.0",
+  "arch": "all",
+  "maintainer": "Tunahan",
+  "description": "Web adresinden HTML kodunu getiren basit Termux paketi",
+  "homepage": "https://github.com/tunahan/gethtml",
+  "depends": ["curl"],
+  "data_files": {
+    "bin": [
+      "files/bin/gethtml"
+    ]
+  }
+}
